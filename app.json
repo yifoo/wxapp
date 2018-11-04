@@ -24,8 +24,8 @@
       "text": "公司简介"
     }, {
       "pagePath": "pages/product/product",
-      "iconPath": "images/product.png",
-      "selectedIconPath": "images/product_selected.png",
+      "iconPath": "images/detail.png",
+      "selectedIconPath": "images/detail_selected.png",
       "text": "产品服务"
     }, {
       "pagePath": "pages/contact/contact",

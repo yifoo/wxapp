@@ -14,7 +14,7 @@
   <view class="news">
     <text class="news-title">行业资讯</text>
     <block wx:for="{{news}}" wx:key="{{item.id}}">
-      <navigator url="/pages/news/news-details?id={{item.id}}">
+      <navigator open-type="navigate" url="/pages/news/news-details?id={{item.id}}">
         <view class="news-item line">
           <view class="news-item-pic">
             <image mode="widthFix" src="{{item.thumbnail}}" class="news-item-image" width="" height=""></image>

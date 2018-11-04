@@ -16,7 +16,7 @@ Page({
         //   WxParse.wxParse('content', 'html', data.post.content, that, 25)
         //   return
     wx.request({
-      url: CONFIG.API_URL.GET_ARTICLE + options.id,
+      url: CONFIG.API.GET_ARTICLE + options.id,
       method: 'GET',
       data: {},
       header: {

@@ -37,8 +37,6 @@
     align-items: center;
     flex-direction: row;
 }
-.widgets__info_show{
-}
 .widgets__info_show .widgets__info-img{
     transform: rotate(-90deg);
 }

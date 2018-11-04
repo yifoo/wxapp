@@ -8,7 +8,7 @@ Page({
   onLoad: function () {
     var that = this;
     wx.request({
-      url: CONFIG.API_URL.GET_CATEGORY + '17',
+      url: CONFIG.API.GET_CATEGORY + '17',
       method: 'GET',
       data: {},
       header: {

@@ -14,7 +14,7 @@ Page({
   onLoad: function () {
     var that = this;
     wx.request({
-      url: CONFIG.API_URL.GET_INDEX,
+      url: CONFIG.API.GET_INDEX,
       method: 'GET',
       data: {},
       header: {
